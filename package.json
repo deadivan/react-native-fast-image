@@ -32,7 +32,6 @@
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
     "format": "prettier --write --no-semi --single-quote --trailing-comma all ./FastImage.js ./example/*.js ./example/fastImage/*.js ./server/*.js",
-    "prepare": "git submodule update --init --recursive",
     "test": "yarn run test:pretty && yarn run test:jest",
     "test:jest": "jest *.js",
     "test:pretty": "prettier-check --write --no-semi --single-quote --trailing-comma all ./FastImage.js ./example/*.js ./example/fastImage/*.js ./server/*.js"
