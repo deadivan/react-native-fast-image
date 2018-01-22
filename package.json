@@ -30,7 +30,7 @@
     "url": "git+https://github.com/DylanVann/react-native-fast-image.git"
   },
   "scripts": {
-    "postinstall": "scripts/postinstall.js",
+    "postinstall": "node scripts/postinstall.js",
     "format": "prettier --write --no-semi --single-quote --trailing-comma all ./FastImage.js ./example/*.js ./example/fastImage/*.js ./server/*.js",
     "prepare": "git submodule update --init --recursive",
     "test": "yarn run test:pretty && yarn run test:jest",
